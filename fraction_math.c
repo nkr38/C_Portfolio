@@ -1,11 +1,14 @@
 /* Homework 5: Question 2
    Compile with: gcc -std=c89 -o Q2 Q2.c
    Then run your compiled program with: ./Q2
+   
+   This code is practice for using scructs. Each struct is used to store a numerator and denominator of a fraction. The code can 
+   reduce, add, subtract, multiply and divide fractions.
 */
 
 #include <stdio.h>
 
-
+/* fraction struct init */
 struct fraction {
   int numerator;
   int denominator;
