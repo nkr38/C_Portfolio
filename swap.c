@@ -1,6 +1,8 @@
 /* Homework 3: Question 1
    Compile with: gcc -std=c89 -o Q1 Q1.c
    Then run your compiled program with: ./Q1
+   
+   Simply a starter code to swap to integers by calling a funtion named swap and passing in the addresses of those values.
 */
 
 #include <stdio.h>
