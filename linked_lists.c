@@ -1,3 +1,9 @@
+/* Homework 6: Question 3
+   Compile with: gcc -std=c89 -o Q3 Q3.c
+   Then run your compiled program with: ./Q3
+   Creates a linked list of size 10 and then prints each one before removing them all one by one.
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
