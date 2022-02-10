@@ -6,7 +6,6 @@
 
 int main()
 {
-  /* Your code goes here! */
   FILE *fp;
   FILE *counter;
   int c, i=0, j, k, store[16];
