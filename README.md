@@ -1,2 +1,2 @@
 # Portfolio of Code in C
-A collection of codes that I worked on in C during ECEC201 Advanced Programming for Engineers
+A collection of codes that I worked on in C during ECEC201 Advanced Programming for Engineers and CS265 Advanced Programming Techniques
