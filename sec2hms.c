@@ -33,8 +33,8 @@ struct time sec2hms( int secs )
     return new;
 }
 int main()
-{
-    int secs = -100;
+{   /*init*/
+    int secs = 77777;
     struct time data;
     data = sec2hms(secs);
     printf("\nHours: %d\nMins: %d\nSeconds: %d\n", data.hr, data.min, data.sec);
