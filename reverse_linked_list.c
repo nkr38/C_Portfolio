@@ -14,6 +14,7 @@ struct list {
 
 void add_head(struct list **head, struct list *item)
 {
+  /*adds item to the list*/
   item->next = *head;
   *head = item;
 }
