@@ -42,7 +42,7 @@ int main()
   unsigned char temp_char[10];
 
   fp = fopen("ascii_chars.txt", "rb");
-
+  /* Interface */
   printf("Offset              Bytes              Characters\n");
   printf("------  -----------------------------  ----------\n");
 
