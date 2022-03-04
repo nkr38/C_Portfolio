@@ -1,3 +1,4 @@
+/* 3/4/2022 */
 #include <stdio.h>
 #include <ctype.h>
 enum Statetype {NORMAL, INWORD};
