@@ -42,7 +42,7 @@ void chesh2(char);
 void chesh3(char);
 void chesh4(char);
 
-/* dee1: state function for E1				*/
+/* dee1: state function for E1		    */
 /* takes one char input, sets the next state*/
 void dee1(char c)
 {
@@ -61,7 +61,7 @@ void dee1(char c)
 	return;
 }
 
-/* dee2: state function for EF				*/
+/* dee2: state function for EF		    */
 /* takes one char input, sets the next state*/
 void dee2(char c)
 {
@@ -80,7 +80,7 @@ void dee2(char c)
 	return;
 }
 
-/* dee3: state function for O1				*/
+/* dee3: state function for O1		    */
 /* takes one char input, sets the next state*/
 void dee3(char c)
 {
@@ -99,7 +99,7 @@ void dee3(char c)
 	return;
 }
 
-/* dee4: state function for OF				*/
+/* dee4: state function for OF		    */
 /* takes one char input, sets the next state*/
 void dee4(char c)
 {
@@ -253,7 +253,7 @@ void chesh4(char c)
 /* main: Calls each state based off the chars in each line */
 /* Will use stdin as input if no file is given as argument */
 /* Prints each message as OK or FAIL based what state the  */
-/* message ends in 										   */
+/* message ends in 					   */
 int main( int argc, char **argv )
 {
 	FILE *fin = stdin;
