@@ -1,4 +1,4 @@
-/* Homework 3: Question 3
+/*
    Compile with: gcc -std=c89 -o Q3 Q3.c
    Then run your compiled program with: ./Q3
 */
